@@ -1,0 +1,248 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.container {
+	width: 1366px;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+.menu {
+	float: right;
+}
+.menu-list {
+	list-style-type: none;
+	float: left;
+}
+.menu-link {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #8c8c8c;
+	text-decoration: none;
+	font-weight:300;
+	padding: 10px 13px;
+}
+.menu-link:hover {
+	color: #020202;
+	border-bottom: 3px solid #020202;
+}
+.header {
+    padding-top: 63px;
+    padding-left: 98px;
+    padding-right: 98px;
+}
+.products {
+	height: 60px;
+	padding-top: 30px;
+	margin-top: 25px;
+	background-color: #f4f4f4;;
+}
+.menu-products {
+	display: table;
+	margin: 0 auto;
+}
+.menu-products-link {
+	font-size: 18px;
+	line-height: 1.2;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #6c6c6c;
+	padding: 15px;
+	text-decoration: none;
+}
+.menu-products-link:hover {
+	color: #020202;
+}
+.menu-products-list {
+	list-style-type: none;
+	float: left;
+}
+.contain {
+	height: 650px;
+	padding-left: 98px;
+	padding-right: 98px;
+
+}
+.containImg {
+	float: left;
+	margin-top: 70px;
+}
+.text {
+	height: 570x;
+    width: 550px;
+	margin-top: 70px;
+	float:right;
+	text-align: center;
+}
+.text-h2 {
+	padding-top: 25px;
+	font-size: 36px;
+	line-height: 1.2;
+	font-weight: 700;
+	color: #212121;
+}
+.text-HotDeal {
+	font-size: 18.1px;
+	line-height: 48px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #e53935;
+}
+.text-price {
+	font-size: 50px;
+	font-weight: 300;
+	color: #212121;
+}
+.text-price:hover {
+	transition: 2s;
+	transform:scale(1.7);
+	text-transform: uppercase;
+
+}
+.button {
+	width: 510px;
+	height: 71px;
+	background-color: #f44336;
+	box-shadow: 0px 2px 5px 0px rgba(33,33,33,0.34);
+	border-radius: 35px;
+	display: inline-block;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	line-height: 70px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+.description {
+	font-size: 16.1px;
+	line-height: 24px;
+	font-weight: 300;
+	letter-spacing: 0.025em;
+	color: #212121;
+}
+.choice {
+	height: 150px;
+	margin-left: 280px;
+}
+.choiceImg {
+	float: left;
+}
+.choiceImg:hover {
+	outline: 2px solid #f4f4f4;
+}
+.trending-products{
+	height: 600px;
+	padding-left: 98px;
+    padding-right: 98px;
+    padding-top: 120px;
+}
+.trending-products-h2 {
+	font-size: 36px;
+	line-height: 1.2;
+	font-weight: 700;
+	color: #212121;
+	float: left;
+}
+.trending-products-product {
+	margin-top: 100px;
+}
+.trending-products-img {
+	width: 357px;
+    height: 357px;
+    margin: 15px;
+}
+.productLinkRite {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #212121;
+	float: right;
+	text-decoration: none;
+}
+.contact {
+	height: 310px;
+	padding-left: 98px;
+	padding-right: 98px;
+	padding-top:120px;
+	background-color: #f7f7f7;
+}
+.contact-as {
+	float: left;
+}
+.contact-h3 {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #6c6c6c;
+}
+.contact-content {
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 300;
+	color: #212121;
+	margin-top: 20px;
+
+}
+.Useful-Information {
+	float:left;
+	margin-left: 100px;
+}
+.Information-content {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #212121;
+	margin-top: 20px;
+	margin-right: 100px;
+}
+input {
+	width: 310px;
+	height: 48px;
+	background-color: #ffffff;
+	border: 1px solid #d9dee1;
+	float: right;
+}
+.simvol {
+	padding-top: 150px;
+}
+.simvol-copy {
+	float:left;
+	font-size: 12px;
+	line-height: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #6c6c6c;
+	margin-right: 150px;
+}
+.simvol-privacy {
+	display: inline-block;
+	font-size: 12px;
+	line-height: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #6c6c6c;
+	margin-left: 150px;
+}
+
+.simvol a {
+	float: left;
+}
